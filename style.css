@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+   justify-content: center;
+}
+.maindiv{
+    width: 80vw;
+    height: 70vh;
+    background-color: #f2f2f2;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outerdiv{
+    width: 96%;
+    height: 92%;
+    display: flex;
+}
+img{
+    height: 45px;
+    width: 55px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+button{
+    height: 45px;
+    width: 110px;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 20px;
+}
+p{
+    padding: 2rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+h1{
+    margin-left: 2rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+.innerdiv1{
+width: 33.33%;
+height: 100%;
+background-color: #e38826;
+border-radius: 20px 0 0 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.innerdiv2{
+    width: 33.33%;
+    height: 100%;
+    background-color: #006970; 
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.innerdiv3{
+    width: 33.33%;
+    height: 100%;
+     background-color: #004241;
+     border-radius: 0 20px  20px 0;
+     display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.innerdiv1 button{
+    color: #e38826;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.innerdiv2 button{
+    color: #006970;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.innerdiv3 button{
+    color: #004241;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
